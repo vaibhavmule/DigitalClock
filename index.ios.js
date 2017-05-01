@@ -9,7 +9,7 @@
    AppRegistry,
  } from 'react-native';
 
- import App from "./app/App";
+ import App from "./src/App";
 
 export default class DigitalClock extends Component {
   render() {
