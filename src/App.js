@@ -8,6 +8,7 @@ import {
 
 import KeepAwake from "react-native-keep-awake";
 import moment from "moment";
+import { responsiveHeight, responsiveWidth, responsiveFontSize } from 'react-native-responsive-dimensions';
 
 const styles = StyleSheet.create({
 	container: {
@@ -18,7 +19,7 @@ const styles = StyleSheet.create({
 	},
 	timeText: {
 		color: '#999999',
-		fontSize: 150,
+		fontSize: responsiveFontSize(10),
     fontFamily: 'DS-Digital',
 	}
 })
